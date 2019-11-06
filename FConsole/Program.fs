@@ -36,6 +36,8 @@ let testCar = { HP = 200; Brand = "BMW" }
 let tunedTestCar = { testCar with HP = 500 }
 
 
+type testType = { data : string; id : int } 
+
 [<EntryPoint>]
 let main argv =
     let num = 2
